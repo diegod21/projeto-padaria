@@ -99,7 +99,10 @@ div.imagens{
 }
 article{
     background-image: linear-gradient(to bottom , #DDAA44 , white);
-    height: 700px;
+    height: 600px;
+    width: 80vw;
+    position: relative;
+    background-color: aqua;
 }
 article h3{
     text-align: center;
@@ -107,18 +110,15 @@ article h3{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif ;
 }
+
 div.feed{
     text-align: center;
-    max-width: 350px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    max-width: 364px;
     background-color: white;
     float: left;
     height: 400px;
 }
-div.feed#f1{
-    margin-left: 10px;
-}
+
 div.feed a{
     text-decoration: none;
     color: #DDAA44;
@@ -128,6 +128,7 @@ div.feed a:hover{
     color: #DDAA44;
 }
 section.coment  {
+    display: block;
     text-align: center;
 }
 section.coment p{
@@ -154,19 +155,16 @@ div.galeria {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif ;
 }
-footer{
-    font-family: Arial, Helvetica, sans-serif;
-}
-div.contato{
-    background-color: lightgray;
+
+div.feet{
     width: 300px;
-    height: 300px;
-   
+    height: 200px;
+    
 }
-div.contato h1 , div.contato li{
+div.feet h1 , div.feet p {
     text-align: center;
 }
-.contato input{
+div.feet input{
     transform: translateX(-50%);
     margin: auto;
     margin-left: 50%;
@@ -176,4 +174,9 @@ div.contato h1 , div.contato li{
     color: white;
     border-radius: 5px;
 }
+div.feet li{
+    list-style: none;
+    text-align: center;
+}
+
 
