@@ -1,1 +1,179 @@
 @charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* cores padrao:
+       vermelho: #974053
+       vinho : #560015
+       dourado:#9B8861
+       branco:#FFFFFF*/
+}
+body{
+    background-color: #560015;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    
+    background-color: white;
+    position: fixed;
+    color: #DDAA44;
+}
+nav > h1{
+   float: left;
+   position: absolute;
+   top: 50%;
+   padding-left: 30px;
+   font-family:  'Dancing Script', cursive;
+   font-size: 2em;
+
+   transform: translateY(-50%);
+}
+nav  ul{
+    list-style: none;
+   float: right;
+   
+   ;
+   line-height: 70px;
+}
+
+nav  li{
+   
+   float: left;
+   margin-right: 15px;
+}
+
+
+
+header , main , footer{
+    margin: auto;
+    width: 80vw;
+    background-color: #FFFFFF;
+    
+    
+}
+header{
+    background-color: white;
+    height: 450px;
+    color: #DDAA44;
+}
+header h1 {
+    font-family:  'Dancing Script', cursive;
+   font-size: 3.5em;
+}
+header p , header h1{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+header input {
+
+    transform: translateX(-50%);
+    margin: auto;
+    margin-left: 50%;
+    padding: 20px;
+    border: none;
+    background-color: #DDAA44;
+    color: white;
+    border-radius: 5px;
+}
+header input:hover{
+    background-color: #8a6a2b;
+}
+main img{
+    max-width: 300px;
+    padding: 10px;
+}
+div.imagens img{
+    max-width: 300px;
+}
+div.imagens{
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom , white ,  #DDAA44);
+}
+article{
+    background-image: linear-gradient(to bottom , #DDAA44 , white);
+    height: 700px;
+}
+article h3{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+div.feed{
+    text-align: center;
+    max-width: 350px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: white;
+    float: left;
+    height: 400px;
+}
+div.feed#f1{
+    margin-left: 10px;
+}
+div.feed a{
+    text-decoration: none;
+    color: #DDAA44;
+}
+div.feed a:hover{
+    text-decoration:underline;
+    color: #DDAA44;
+}
+section.coment  {
+    text-align: center;
+}
+section.coment p{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 60vw;
+}
+section.coment >  a {
+    color: #DDAA44;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-right: 15px;
+  
+}
+section.coment > a:hover{
+    text-decoration: underline;
+    color: #8a6a2b;
+}
+div.galeria {
+   
+    text-align: center;
+    color: #DDAA44;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.contato{
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+   
+}
+div.contato h1 , div.contato li{
+    text-align: center;
+}
+.contato input{
+    transform: translateX(-50%);
+    margin: auto;
+    margin-left: 50%;
+    padding: 20px;
+    border: none;
+    background-color: #DDAA44;
+    color: white;
+    border-radius: 5px;
+}
+
