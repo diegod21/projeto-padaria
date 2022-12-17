@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+@media screen and (min-width:1240px) {
+    .responsive {
+        position: relative;
+    }
+    .centro {
+        position: relative;
+    }
+}
+@media screen and (max-width:1240px) {
+    div.imagens img{
+        max-width: 200px;
+    }
+    .responsive{
+        width: 100%;
+        display: inline-block;
+        left: 0%;
+        transform: translateX(0);
+    }
+    .square {
+        left: 50%;
+        transform: translateX(-50%);
+        float: none;
+    }
+}

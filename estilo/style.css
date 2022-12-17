@@ -113,12 +113,26 @@ article h3{
 
 div.feed{
     text-align: center;
-    max-width: 364px;
+    width: 350px;
     background-color: white;
-    float: left;
     height: 400px;
 }
-
+.square2{
+    /* Largura */
+    width: 300px;
+    /* Altura */
+    height: 200px;
+    /* Posição relativa */
+    position: relative;
+    /* e flutuação a esquerda */
+    float: left;
+}
+.centro{
+    width: 950px;
+    height: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 div.feed a{
     text-decoration: none;
     color: #DDAA44;
@@ -155,7 +169,26 @@ div.galeria {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif ;
 }
+footer{
+    overflow: hidden;
+}
+.responsive{
+    width: 1000px;
+    height: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.square{
+    /* Largura */
+    width: 300px;
+    /* Altura */
+    height: 200px;
+    /* Posição relativa */
+    position: relative;
+    /* e flutuação a esquerda */
+    float: left;
+}
 div.feet{
     width: 300px;
     height: 200px;
