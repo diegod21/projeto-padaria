@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 @media screen and (min-width:1240px) {
     .responsive {
         position: relative;
@@ -8,6 +9,16 @@
         position: relative;
     }
 }
+
+
+
+@media screen and(max-width:950px) {
+    
+}
+
+
+
+
 @media screen and (max-width:1240px) {
     div.imagens img{
         max-width: 200px;
@@ -23,4 +34,23 @@
         transform: translateX(-50%);
         float: none;
     }
+    div.feed{
+        height: 360px;
+        width: 250px;
+    }
+    div.feed img{
+        width: 220px;
+    }
+    .square2{
+        /* Largura */
+        width: 250px;
+        /* Altura */
+        height: 200px;}
+        .centro{
+            position: relative;
+            width: 750px;
+            height: 380px;
+        }
+    
 }
+

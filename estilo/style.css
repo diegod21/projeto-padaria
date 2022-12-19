@@ -45,9 +45,21 @@ nav  li{
    
    float: left;
    margin-right: 15px;
+   padding-left: 7px;
+   padding-right: 7px;
+   border-radius: 5px;
+}
+nav  li:hover{
+     background-color: #560015;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-
+nav a{
+    text-decoration: none;
+    color: #DDAA44;
+}
 
 header , main , footer{
     margin: auto;
@@ -113,10 +125,13 @@ article h3{
 
 div.feed{
     text-align: center;
-    width: 350px;
+    width: 300px;
     background-color: white;
     height: 400px;
 }
+    div.feed img{
+        width: 280px;
+    }
 .square2{
     /* Largura */
     width: 300px;
@@ -128,7 +143,7 @@ div.feed{
     float: left;
 }
 .centro{
-    width: 950px;
+    width: 900px;
     height: 400px;
     left: 50%;
     transform: translateX(-50%);
